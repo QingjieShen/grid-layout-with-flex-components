@@ -77,4 +77,8 @@ body {
     align-self: stretch;
 }
 
-
+/* use flex-start to pin the title on the left, and use stretch to stretch the bottom line*/
+.emoji h2 {
+    align-self: flex-start;
+    align-self: stretch;
+}
