@@ -71,3 +71,10 @@ body {
 .emoji p {
     flex-grow: 1;
 }
+
+/* use align-self to stretch button at the cross-axis direction */
+.emoji a {
+    align-self: stretch;
+}
+
+
