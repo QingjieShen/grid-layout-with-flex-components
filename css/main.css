@@ -66,3 +66,8 @@ body {
 .emoji .icon {
     order: -1;
 }
+
+/* grow P tag to make sure the button stay at the bottom */
+.emoji p {
+    flex-grow: 1;
+}
