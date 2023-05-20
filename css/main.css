@@ -25,3 +25,28 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .emojis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "eyes beer"
+    "joy seedling"
+    ;
+  }
+
+  .emoji:nth-child(1) {
+    grid-area: eyes;
+  }
+
+  .emoji:nth-child(2) {
+    grid-area: beer;
+  }
+
+  .emoji:nth-child(3) {
+    grid-area: joy;
+  }
+
+  .emoji:nth-child(4) {
+    grid-area: seedling;
+  }
