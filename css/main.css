@@ -36,6 +36,7 @@ body {
     "eyes beer"
     "joy seedling"
     ;
+    grid-gap: 10px;
 }
 
 .emoji:nth-child(1) {
@@ -61,6 +62,7 @@ body {
     flex-wrap: nowrap;
     /* justify-content: center; */
     align-items: center;
+    
 }
 
 .emoji .icon {
